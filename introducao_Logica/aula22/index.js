@@ -14,3 +14,10 @@ Operadores Lógicos
 // const vaiLogar = usuario === 'Luiz' && senha === '12345';
 
 console.log(!!true);
+
+// ---------------------
+
+/*
+&& -> false && true -> false "o valor mesmo"
+|| -> true && false -> vai retornar "o valor verdadeiro"
+*/
