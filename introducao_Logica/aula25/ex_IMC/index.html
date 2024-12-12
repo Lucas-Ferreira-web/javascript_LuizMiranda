@@ -33,18 +33,18 @@
                     <li>Obsidade grau 2</li>
                     <li>Obsidade grau 3</li>
                 </ul>
-                        </div>
             </div>
+        </div>
 
         <form action="">
             <legend>Calcule seu IMC</legend>
 
-            <label for="peso">Peso: <input type="number" name="" id="peso"></label>
-            <label for="peso">Altura: <input type="number" name="" id="Altura"></label>
-            <button>Calcular IMC</button>
+            <label for="peso">Peso: <input type="number" name="" id="peso" required></label>
+            <label for="peso">Altura: <input type="text" name="" id="altura" step=".010" required></label>
+            <button id="btn">Calcular IMC</button>
         </form>
 
-        <output id="resp">seu IMC é 23,90 (Peso Normal)</output>
+        <output id="resp"></output>
     </section>
 
     <script src="./assets/js/main.js"></script>

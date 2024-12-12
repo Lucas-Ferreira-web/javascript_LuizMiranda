@@ -58,7 +58,7 @@ form button:hover {
 }
 
 #resp {
-    display: block;
+    display: none;
     background-color: rgb(24, 193, 245);
     margin-top: 20px;
     padding: 10px;
