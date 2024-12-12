@@ -39,18 +39,18 @@
         console.log(peso)
         console.log(altura)
 
-        if( (isNaN(peso) && isNaN(altura)) || (peso <= 0 && altura <= 0) ){
+        if( (isNaN(altura) || isNaN(peso)) || (peso <= 0 && altura <= 0) ){
             output.style.display = "block"
-            output.textContent = "Digite apenas numeros"
+            output.textContent = "Digite apenas numeros."
             output.style.backgroundColor = "red"
         } else {
             if(peso <= 0){
                 output.style.display = "block"
-                output.textContent = "peso invalido!"
+                output.textContent = "Peso invalido."
                 output.style.backgroundColor = "red"
             } else if(altura <= 0) {
                 output.style.display = "block"
-                output.textContent = "altura invalida!"
+                output.textContent = "Altura invalida."
                 output.style.backgroundColor = "red"
             } else {
                 output.style.display = "block"

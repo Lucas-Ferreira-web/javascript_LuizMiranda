@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title><link rel="stylesheet" href="./assets/estilo/estilo.css">
+    <title>IMC</title><link rel="stylesheet" href="./assets/estilo/estilo.css">
 </head>
 <body>
     
     <section class="container">
-        <h1>Modelo IMC</h1>
+        <h1>Descubra seu IMC</h1>
 
         <div class="ladoALado">
             <div>
@@ -39,8 +39,8 @@
         <form action="">
             <legend>Calcule seu IMC</legend>
 
-            <label for="peso">Peso: <input type="number" name="" id="peso" required></label>
-            <label for="peso">Altura: <input type="text" name="" id="altura" step=".010" required></label>
+            <label for="peso">Peso: <input type="text" id="peso" maxlength="5" step=".010"></label>
+            <label for="peso">Altura: <input type="text" id="altura" step=".010" maxlength="5"></label>
             <button id="btn">Calcular IMC</button>
         </form>
 
