@@ -27,17 +27,8 @@
         let peso = document.querySelector("#peso").value.trim();
         let altura = document.querySelector("#altura").value.trim();
 
-        peso = Number(peso)
-        altura = Number(altura.replace("," , "."))
-
-        console.log(isNaN(peso))
-        console.log(isNaN(altura))
-        console.log("-----------------")
-        console.log(peso <= 0)
-        console.log(altura <= 0)
-        console.log("-----------------")
-        console.log(peso)
-        console.log(altura)
+        peso = Number(peso);
+        altura = Number(altura.replace("," , "."));
 
         if( (isNaN(altura) || isNaN(peso)) || (peso <= 0 && altura <= 0) ){
             output.style.display = "block"
